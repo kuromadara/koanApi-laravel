@@ -29,7 +29,7 @@ class KoanController extends Controller
             return response()->json(
                 [
                     'status' => false,
-                    'message' => 'Something went wrong' . $th->getMessage(),
+                    'message' => 'Something went wrong in counting' . $th->getMessage(),
                 ],
                 401
             );
@@ -55,7 +55,7 @@ class KoanController extends Controller
             return response()->json(
                 [
                     'status' => false,
-                    'message' => 'Something went wrong' . $th->getMessage(),
+                    'message' => 'Something went wrong.' . $th->getMessage(),
                 ],
                 401
             );
@@ -90,7 +90,7 @@ class KoanController extends Controller
             return response()->json(
                 [
                     'status' => false,
-                    'message' => 'Something went wrong' . $th->getMessage(),
+                    'message' => 'Something went wrong in fetching' . $th->getMessage(),
                 ],
                 401
             );
